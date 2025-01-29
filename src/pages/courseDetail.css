@@ -1,0 +1,144 @@
+.course-detail {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.course-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.course-title {
+    flex: 1;
+    text-align: left;
+}
+
+.course-title h1 {
+    margin-bottom: 1rem;
+    color: var(--first-color);
+}
+
+.course-title p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.course-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 8px;
+}
+
+.course-info {
+    margin: 2rem 0;
+}
+
+.info-card {
+    background-color: var(--white-color);
+    border: 1px solid #ddd;
+    padding: 1rem;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.info-card p {
+    margin: 0.5rem 0;
+}
+
+.info-card i {
+    margin-right: 0.5rem;
+    font-size: 1.2rem;
+}
+
+.methodology {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+.methodology p {
+    font-size: 1.2rem;
+}
+
+.modules {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.modules h2 {
+    margin-bottom: 2rem;
+}
+
+.module {
+    text-align: left;
+    margin-bottom: 1rem;
+    border: 2px solid var(--first-color);
+}
+
+.module h3 {
+    cursor: pointer;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s ease;
+}
+
+.module h3:hover {
+    background-color: var(--first-color);
+    color: var(--white-color);
+}
+
+.module ul {
+    margin: 0.5rem 1rem;
+    padding-left: 1rem;
+    list-style-type: disc;
+}
+
+.module li {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+.enroll-btn {
+    margin-top: 1.5rem;
+    padding: 0.75rem 1.5rem;
+    font-size: 1.2rem;
+    background-color: var(--first-color);
+    color: var(--white-color);
+    border: none;
+    cursor: pointer;
+}
+
+.enroll-btn:hover {
+    background-color: var(--second-color);
+    color: var(--black-color);
+}
+
+.not-found {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ff4d4d;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+@media (max-width: 768px) {
+    .course-header {
+        flex-direction: column-reverse;
+    }
+
+    .module h3 {
+        font-size: 1.1rem;
+    }
+
+    .module ul li {
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,48 @@
+.courses {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.courses-title {
+    margin-bottom: 1rem;
+    color: var(--first-color);
+}
+
+.courses-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    gap: 1.5rem;
+    padding: 1rem;
+}
+
+
+.course-card {
+    max-width: 350px;
+    background: var(--white-color);
+    border-radius: 1rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+    overflow: hidden;
+    text-align: center;
+}
+
+.course-card img {
+    width: 100px;
+    height: auto;
+    margin: 0 auto 1rem;
+    display: block;
+}
+
+.course-card h3 {
+    margin: 0.5rem 0;
+}
+
+.course-card p {
+    font-size: 1rem;
+    margin: 0 1rem 1rem;
+    color: #555;
+}

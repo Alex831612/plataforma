@@ -1,0 +1,82 @@
+/* Courses */
+.course-page {
+    margin: 2rem auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.course-page h1 {
+    margin-bottom: 2rem;
+    color: var(--first-color);
+}
+
+.search-bar {
+    display: block;
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    padding: 0.8rem;
+    font-size: 1.1rem;
+    border: 1px solid #ddd;
+    border-radius: 0.8rem;
+}
+
+.course-flexbox {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.courses-card {
+    background-color: var(--white-color);
+    border: 1px solid #ddd;
+    border-radius: 0.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-width: 350px;
+    text-align: left;
+    overflow: hidden;
+}
+
+.courses-image {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.courses-info {
+    padding: 1rem;
+}
+
+.courses-info h2 {
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem;
+}
+
+.courses-info p {
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.details-link {
+    display: block;
+    text-align: center;
+    background-color: var(--second-color);
+    color: var(--white-color);
+    text-decoration: none;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    font-weight: bold;
+}
+
+.details-link:hover {
+    background-color: rgb(54, 160, 125);
+}
+
+.error-search {
+    font-size: 1.2rem;
+    color: #ff4d4d;
+}
+
+
